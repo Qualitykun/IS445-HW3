@@ -44,16 +44,16 @@ function PrintDepts(depts) {
                     docul3.id='docul3';
                     for (let i3 = 0; i3 < y.length; i3++) {
                         let z = y[i3];
-                        let newlistitem=document.createElement('li');
-                        let listvalue=document.createTextNode(z);
-                        newlistitem.appendChild(listvalue);
-                        docul3.appendChild(newlistitem);
+                        let newlistitem3=document.createElement('li');
+                        let listvalue3=document.createTextNode(z);
+                        newlistitem3.appendChild(listvalue3);
+                        docul3.appendChild(newlistitem3);
                         }
                 } else {
-                    let newlistitem=document.createElement('li');
-                    let listvalue=document.createTextNode(y);
-                    newlistitem.appendChild(listvalue);
-                    docul2.appendChild(newlistitem);
+                    let newlistitem2=document.createElement('li');
+                    let listvalue2=document.createTextNode(y);
+                    newlistitem2.appendChild(listvalue2);
+                    docul2.appendChild(newlistitem2);
                     } 
             }
         } else {

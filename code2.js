@@ -31,7 +31,7 @@ const org2_depts=[
 
 function PrintDepts(depts) {
     return depts.name;
-
+    
 }
 
 PrintDepts(org1_depts);
