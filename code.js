@@ -1,4 +1,4 @@
-const org1_depts=[
+const org1_depts = [
     {
         name: 'accounting',
         children: [
@@ -12,7 +12,7 @@ const org1_depts=[
     },
 ]
 
-const org2_depts=[
+const org2_depts = [
     {
         name: 'accounting',
         children: [
@@ -63,6 +63,7 @@ function PrintDepts(depts) {
             docul.appendChild(newlistitem);
             } 
     }
+    return docul;
 }
 
 PrintDepts(org1_depts);
