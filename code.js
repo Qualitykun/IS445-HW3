@@ -1,33 +1,35 @@
 const org1_depts = [
     {
-        name: 'accounting',
-        children: [
-            {name: 'accounting payable', children: []},
-            {name: 'accounting receivable', children: []},
-        ],
+      name: 'accounting',
+      children: [
+        { name: 'accounting payable', children: [] },
+        { name: 'accounting receivable', children: [] },
+      ],
     },
     {
-        name: 'finance',
-        children: [],
+      name: 'finance',
+      children: [],
     },
-]
+  ]
+  
 
-const org2_depts = [
+  const org2_depts = [
     {
-        name: 'accounting',
-        children: [
-            {name: 'accounting payable', children: []},
-            {
-                name: 'accounting receivable',
-                children: [{name: 'cash', children: []}, {name: 'check', children: []}],
-            },
-        ],
+      name: 'accounting',
+      children: [
+        { name: 'accounting payable', children: [] },
+        {
+          name: 'accounting receivable',
+          children: [{ name: 'cash', children: [] }, { name: 'check', children: [] }],
+        },
+      ],
     },
     {
-        name: 'finance',
-        children: [{name: 'investment', children: []}],
+      name: 'finance',
+      children: [{ name: 'investment', children: [] }],
     },
-]
+  ]
+  
 
 function PrintDepts(depts) {
     let docul = document.createElement('ul');
