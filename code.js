@@ -63,7 +63,6 @@ function PrintDepts(depts) {
             docul.appendChild(newlistitem);
             } 
     }
-    return docul;
 }
 
 PrintDepts(org1_depts);
