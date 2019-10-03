@@ -44,8 +44,9 @@ function PrintDepts(depts) {
         }
         output += end_tag;
     }
-const outputDiv = document.getElementById('output')
-outputDiv.innerHTML = output
+const outputDiv = document.getElementById('output');
+outputDiv.innerHTML = output;
+return outputDiv;
 }
 
 PrintDepts(org1_depts);
