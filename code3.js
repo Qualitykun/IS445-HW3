@@ -60,7 +60,8 @@ function PrintDepts(depts) {
 
     }
     output += end_tag;
-    return output;   
+    const outputDiv = document.getElementById('output');
+    outputDiv.innerHTML = output;
 }
 
 PrintDepts(org1_depts);
