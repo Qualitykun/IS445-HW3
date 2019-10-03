@@ -37,7 +37,7 @@ function PrintDepts(depts) {
         let listvalue=document.createTextNode(x.name);
         newlistitem.appendChild(listvalue);
         docul.appendChild(newlistitem);
-        if (x.children.length > 1) {
+        if (x.children.length > 0) {
             for (let i2 = 0; i2 < x.children.length; i2++) {
                 let y = x.children[i2]
                 let docul2 = document.createElement('ul');
@@ -46,7 +46,7 @@ function PrintDepts(depts) {
                 let listvalue2=document.createTextNode(y.name);
                 newlistitem2.appendChild(listvalue2);
                 docul2.appendChild(newlistitem2);
-                if (y.children.length > 1) {
+                if (y.children.length > 0) {
                     for (let i3 = 0; i3 < y.children.length; i3++) {
                         let z = y.children[i3];
                         let docul3 = document.createElement('ul');
