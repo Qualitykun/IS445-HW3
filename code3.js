@@ -38,11 +38,11 @@ function PrintDepts(depts) {
     var output = start_tag;
     for (let i = 0; i < depts.length; i++) {
         let x = depts[i];
-        if (x.children.length > 1) {
+        if (x.children !== []) {
             output += start_li+x.name+end_li+start_tag;
             for (let i2 = 0; i2 < x.children.length; i2++) {
                 let y = x.children[i2];
-                if (y.children.length > 1) {
+                if (y.children !== []) {
                     output += start_li+y.name+end_li+start_tag;
                     for (let i3 = 0; i3 < y.children.length; i3++) {
                         let z = y.children[i3];
