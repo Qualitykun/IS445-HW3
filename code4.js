@@ -44,6 +44,7 @@ function PrintDepts(depts) {
         }
         output += end_tag;
         }
+        return output;
     }
 
 PrintDepts(org1_depts);
