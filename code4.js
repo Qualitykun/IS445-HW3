@@ -46,7 +46,6 @@ function PrintDepts(depts) {
     }
 const outputDiv = document.getElementById('output');
 outputDiv.innerHTML = output;
-return outputDiv;
 }
 
 PrintDepts(org1_depts);
