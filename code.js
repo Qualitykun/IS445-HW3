@@ -12,8 +12,7 @@ const org1_depts = [
     },
   ]
   
-
-  const org2_depts = [
+const org2_depts = [
     {
       name: 'accounting',
       children: [
@@ -30,6 +29,7 @@ const org1_depts = [
     },
   ]
   
+
 
 function PrintDepts(depts) {
     let docul = document.createElement('ul');
